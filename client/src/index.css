@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Varela+Round&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+.ant-btn-primary{
+  background-color: #1677ff;
+}
+
+@media (min-width: 768px) {
+  .categories::-webkit-scrollbar{
+    display: none;
+  }
+}
